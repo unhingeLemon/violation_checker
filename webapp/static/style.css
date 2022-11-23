@@ -1,0 +1,149 @@
+.searchBar{
+  width: 75%;
+  margin: 20px auto;
+}
+
+.signupForm{
+  width: 50%;
+}
+
+.videoFeed{
+  width: 50vw;
+}
+
+th{
+  width: 10vw;
+}
+
+.violationTable > tbody > tr > th{
+  
+  width: 20vw;
+
+}
+
+.plateRow{
+  height: 80vh;
+}
+
+.plateCol{
+  width: 10px;
+}
+
+
+.container{
+  margin-top: 10vh;
+}
+
+.watchContainer{
+  margin: 0 50px;
+  margin-top: 13vh;
+  
+}
+
+.d-plate{
+  justify-content: space-between;
+}
+
+.plate1{
+  width: 40%;
+  margin: 2%;
+}
+
+
+#detectedPlate{
+
+  
+}
+
+#detectedPlate2{
+
+  
+}
+
+
+.pageLinks > nav > ul{
+  margin: 40px auto;
+  justify-content: center;
+}
+
+.noBaseCard{
+  margin-top: 30vh !important ;
+}
+
+.violationChecker > form{
+  width: 50vw;
+  margin: 50px auto;
+}
+
+.violationChecker > h4{
+  margin-top: 20px;
+  text-align: center;
+}
+.violationChecker > h2{
+  margin: 40px;
+  text-align: center;
+}
+.violationChecker > table > h4 {
+  text-align: center;
+}
+.violationChecker > table > h5 {
+  text-align: center !important;
+}
+
+.violationChecker > table{
+  width: 50vw;
+  margin: 40px auto;
+}
+.btnOnChecker > button{
+  margin-left: 60%;
+}
+
+.homePage > h1{
+  font-size: x-large;
+  text-align: center;
+}
+
+.homePage > p{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.homePage{
+  width: 60vw;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.homePage > a{
+  width: 30%;
+  margin: 10px auto !important;
+}
+
+
+.carousel{
+  width: 90%;
+  margin: 20px auto;
+
+}
+
+.home-header{
+  margin: 100px auto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#contact-img{
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.contact-us{
+  align-items: center;
+  margin: 75px 0;
+}
+
+
