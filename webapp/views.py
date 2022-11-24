@@ -10,22 +10,32 @@ views = Blueprint('views', __name__)
 def violation_checker():
     if request.method == "POST":
         engineNumber = request.form.get('engineNumber')
+        
         if(engineNumber != ''):
 
-            car = ""
+            car = None
             violations = []
+            print("here")
             pushed_data = firebase_db.child("Cars").get()
+            print(type(pushed_data))
             for i in pushed_data.each(): 
-                if engineNumber == i.val()["engineNumber"]:
+               
+                if engineNumber == i.val()['engineNumber']:
                     key=i.key()
+                    print("TRUE")
                     car = i.val()
+                    
+             
 
-            if car != "":
+            if car != None:
                 # car exist!
 
                 # QUERY ITS VIOLATION:
                 violation_query = firebase_db.child("Violations").get()
-                for i in violation_query.each(): 
+                print(violation_query)
+                for i in violation_query.each():
+                    print("inside")
+                    print(type(i.val()["violationOwner"]))
                     if car["id"] == i.val()["violationOwner"]:
                         key=i.key()
                         # v = Violation(
